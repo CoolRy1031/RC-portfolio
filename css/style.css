@@ -1,0 +1,63 @@
+html {
+  box-sizing: border-box;
+}
+/* The Universal Selector */
+*, /* All elements*/
+*::before, /* All ::before pseudo-elements */
+*::after { /* All ::after pseudo-elements */
+  /* height & width will now include border & padding by default
+     but can be over-ridden as needed */
+  box-sizing: inherit;
+}
+
+body {
+  background-image: url(/Images/tatooine.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.name {
+  padding: 16px;
+  color: silver;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.stack {
+  color: orangered;
+  font-size: 20px;
+}
+
+.title {
+  font-size: 12px;
+  color: silver;
+}
+
+li {
+  padding: 12px;
+}
+
+.nav-link {
+  display: flex;
+  justify-content: flex-end;
+  color: orangered;
+  padding-bottom: 14px;
+  padding-right: 16px;
+}
+
+.icons {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 20px;
+}
+
+.fa.fa-github-square {
+  padding-right: 18px;
+}
+
+
+
+
+
+
