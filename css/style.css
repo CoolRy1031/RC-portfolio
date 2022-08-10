@@ -18,6 +18,7 @@ body {
   font-family: 'Roboto Slab', serif;
 }
 
+
 .name {
   padding: 16px;
   color: silver;
@@ -56,6 +57,112 @@ li {
 
 .fa.fa-github-square {
   padding-right: 18px;
+}
+
+@media only screen and (min-width: 768px) {
+  body {
+    background-image: url(/Images/tatooine.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Roboto Slab', serif;
+  }
+  
+  .name {
+    padding: 32px;
+    color: silver;
+    font-weight: bold;
+    font-size: 32px;
+  }
+  
+  .stack {
+    color: orangered;
+    font-size: 40px;
+  }
+  
+  .title {
+    font-size: 24px;
+    color: silver;
+  }
+  
+  li {
+    padding: 24px;
+    font-size: 40px;
+  }
+  
+  .nav-link {
+    font-family: 'Roboto Slab', serif;
+    display: flex;
+    justify-content: flex-end;
+    color: orangered;
+    padding-bottom: 28px;
+    padding-right: 32px;
+    font-size: 28px;
+  }
+  
+  .icons {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 40px;
+    padding-bottom: 20px;
+  }
+  
+  .fa.fa-github-square {
+    padding-right: 36px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  body {
+    background-image: url(/Images/tatooine.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Roboto Slab', serif;
+  }
+  
+  .name {
+    padding: 32px;
+    color: silver;
+    font-weight: bold;
+    font-size: 32px;
+  }
+  
+  .stack {
+    color: orangered;
+    font-size: 40px;
+  }
+  
+  .title {
+    font-size: 24px;
+    color: silver;
+  }
+  
+  li {
+    padding: 24px;
+    font-size: 40px;
+  }
+  
+  .nav-link {
+    font-family: 'Roboto Slab', serif;
+    display: flex;
+    justify-content: flex-end;
+    color: orangered;
+    padding-bottom: 28px;
+    padding-right: 32px;
+    font-size: 32px;
+  }
+  
+  .icons {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 40px;
+    padding-bottom: 20px;
+  }
+  
+  .fa.fa-github-square {
+    padding-right: 36px;
+  }
 }
 
 
