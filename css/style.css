@@ -15,6 +15,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  font-family: 'Roboto Slab', serif;
 }
 
 .name {
@@ -39,6 +40,7 @@ li {
 }
 
 .nav-link {
+  font-family: 'Roboto Slab', serif;
   display: flex;
   justify-content: flex-end;
   color: orangered;

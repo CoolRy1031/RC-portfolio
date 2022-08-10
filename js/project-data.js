@@ -19,6 +19,11 @@ let projectData = [
     deployment: 'https://sei-code-cards.netlify.app/',
     github: 'https://github.com/CoolRy1031/code-cards-front-end',
   },
+  {
+    title: 'Ballpark Tracker',
+    deployment: 'https://ballpark-tracker.herokuapp.com/',
+    github: 'https://github.com/CoolRy1031/ballpark-tracker',
+  },
 ]
 
 export {
