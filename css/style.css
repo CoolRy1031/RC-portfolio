@@ -23,7 +23,8 @@ body {
   justify-content: flex-end;
   align-items: flex-end;
   color:silver;
-  font-size: 20px;
+  font-size: 10px;
+  padding-top: 80px;
 }
 
 .name {
@@ -87,6 +88,13 @@ li {
     font-weight: bold;
     font-size: 32px;
   }
+  .name4{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    color:silver;
+    font-size: 20px;
+  }
   
   .stack {
     color: orangered;
@@ -140,6 +148,15 @@ li {
     font-weight: bold;
     font-size: 32px;
   }
+
+  .name4{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    color:silver;
+    font-size: 24px;
+  }
+  
   
   .stack {
     color: orangered;

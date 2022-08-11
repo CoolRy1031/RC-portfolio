@@ -13,9 +13,3 @@ let projectMarkup = projectData.map(project =>
 </nav>`
 ).join('')
 cardContainer.innerHTML = projectMarkup
-
-about.addEventListener('click', toggleAbout)
-
-function toggleAbout(){
-  
-}
