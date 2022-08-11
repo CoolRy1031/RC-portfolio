@@ -18,6 +18,13 @@ body {
   font-family: 'Roboto Slab', serif;
 }
 
+.name4{
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  color:silver;
+  font-size: 20px;
+}
 
 .name {
   padding: 16px;
@@ -66,6 +73,12 @@ li {
     background-repeat: no-repeat;
     background-attachment: fixed;
     font-family: 'Roboto Slab', serif;
+  }
+
+  p{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
   }
   
   .name {

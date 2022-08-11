@@ -1,6 +1,8 @@
 import { projectData } from "./project-data.js";
 
 const cardContainer = document.getElementById('card-container')
+const about = document.getElementById('about')
+console.log(about)
 
 let projectMarkup = projectData.map(project =>
   `<nav id="nav card-container">
@@ -11,3 +13,9 @@ let projectMarkup = projectData.map(project =>
 </nav>`
 ).join('')
 cardContainer.innerHTML = projectMarkup
+
+about.addEventListener('click', toggleAbout)
+
+function toggleAbout(){
+  
+}
